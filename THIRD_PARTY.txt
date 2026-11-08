@@ -1,0 +1,23 @@
+Bundled components
+
+CPython 3.12.10 Windows AMD64 embeddable distribution
+Source: https://www.python.org/ftp/python/3.12.10/
+License and bundled-library notices: runtime/LICENSE.txt
+
+Tcl/Tk 8.6 and tkinter from the same official CPython 3.12.10 tcltk.msi.
+Notices: runtime/tcl/tcl8.6/license.terms and runtime/tcl/tk8.6/license.terms
+(where supplied by the upstream distribution); CPython LICENSE.txt also applies
+to the Python components.
+
+tkinterdnd2 0.7.0 (including bundled tkdnd platform libraries)
+Source: https://pypi.org/project/tkinterdnd2/0.7.0/
+License notices are retained in runtime/Lib/site-packages/tkinterdnd2-0.7.0.dist-info
+and runtime/Lib/site-packages/tkinterdnd2/tkdnd.
+
+tzdata 2026.6
+Source: https://pypi.org/project/tzdata/2026.6/
+License notices: runtime/Lib/site-packages/tzdata-2026.6.dist-info.
+
+Launcher built with MinGW-w64; it uses Windows system libraries and does not
+download, install or execute external updates. The complete component hashes
+are recorded in Package_manifest.json.
